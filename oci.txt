@@ -1,0 +1,1 @@
+oci_auth_token = "Mb5Tb88HY5[-g#l[6TPv"
