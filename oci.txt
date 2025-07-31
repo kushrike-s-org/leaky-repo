@@ -11,3 +11,6 @@ oci_email_password: 2DB2A0L6yvqY1#<5hp6E
 
 
 heroku_api_key="838ca32a-692f-4041-9ae6-8c9cc04a3c53"
+
+
+oracle_auth_token = xV)Upc(fYseqT[0fE+)P
