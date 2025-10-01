@@ -1,0 +1,32 @@
+rancher_token: token-k596m
+secret_key: hw7spxpx2krgh846fswrdjp5twkm28hqsdjplqf6zdngpd6zc6gcpz
+
+
+"rancher_access_key": "token-6v4qm" 
+"rancher_key": "wjkrtbh2gpnd2bb7xs8w4b62fbltjtbh5bz9z8t596s5gr5d2pcnnl"
+
+
+ curl -X POST --location "https://rancher_test.com" \
+    -H "Content-Type: application/x-www-form-urlencoded" \
+    -d "access_key=token-2bfqk&secret_key=92pfq6skgdkx64lvghmsd6tprddb6jcmm9q9bcsnvgtgdw59xjhjxr"
+
+
+
+rancher token-2bfqk:92pfq6skgdkx64lvghmsd6tprddb6jcmm9q9bcsnvgtgdw59xjhjxr
+
+
+terraform {
+      required_providers {
+        rancher2 = {
+          source  = "rancher/rancher2"
+          version = ">= 1.24.0"
+        }
+      }
+    }
+
+    provider "rancher2" {
+      api_url    = "https://rancher.example.com"
+      access_key = "token-6fr8s"
+      secret_key = "zqt8fmlk9kfbrhkcr79ljwl85rf9vqpbr2j5n5cqtnfd7v4q9mj6qr"
+      insecure   = true # Set to false if using valid SSL certs
+    }
